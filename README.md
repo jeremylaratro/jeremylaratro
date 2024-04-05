@@ -17,9 +17,9 @@ Breakpoint 1, main () at whoami.c:14 \
 14	  printf("Welcome to my Github...\n");
 
 (gdb) x/s 0x400400 \
-0x400400:       "penetration tester, security engineer, passionate breaker of all things technology - hardware and software\n" \
-0x4004a0:       "amateur radio enthusiast, hobbyist PCB designer, and gadget builder\n" \
-0x400540:       "scuba diver, soon to be private pilot, backpacker, and lover of all things travel\n"
+0x400400:       "**penetration tester, security engineer, passionate breaker of all things technology - hardware and software**\n" \
+0x4004a0:       "**amateur radio enthusiast, hobbyist PCB designer, and gadget builder**\n" \
+0x400540:       "**scuba diver, soon to be private pilot, backpacker, and lover of all things travel**\n"
 
 (gdb) continue \
 Continuing. \
