@@ -1,9 +1,9 @@
 jay@github:~$ gdb whoami
 
-GNU gdb (Ubuntu 9.2-0ubuntu1~20.04) 9.2
-Copyright (C) 2020 Free Software Foundation, Inc.
-For help, type "help".
-Type "apropos word" to search for commands related to "word"...
+GNU gdb (Ubuntu 9.2-0ubuntu1~20.04) 9.2 \
+Copyright (C) 2020 Free Software Foundation, Inc. \
+For help, type "help". \
+Type "apropos word" to search for commands related to "word"... \
 
 Reading symbols from whoami...
 
