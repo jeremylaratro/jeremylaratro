@@ -17,9 +17,9 @@ Breakpoint 1, main () at whoami.c:14 \
 14	  printf("Welcome to my Github...\n");
 
 (gdb) x/s 0x70776e212121 \
-0x7468616e6b73:     "**offensive security engineer, CTFer, passionate breaker of all things technology - hardware and software**\n" \
-0x666f72:           "**amateur radio enthusiast, hobbyist PCB designer, and gadget builder**\n" \
-0x7669736974696e67: "**scuba diver, soon to be private pilot, backpacker, and lover of all things travel**\n"
+0x7468616e6b73:     "**Offensive security engineer and passionate breaker of all things hardware and software**\n" \
+0x666f72:           "**I like CTFs, amateur radio, PCB design, and building electronics**\n" \
+0x7669736974696e67: "**as well as travel, SCUBA, backpacking and camping, and aviation.**\n"
 
 (gdb) continue \
 Continuing. \
