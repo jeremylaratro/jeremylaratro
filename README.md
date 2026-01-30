@@ -73,7 +73,7 @@ class Operator:
 
 <div align="center">
 
-| Category | Projects |
+| | |
 |:---------|:---------|
 | **Python Packages** | [dhm](https://github.com/jeremylaratro/dhm) ・ [ulp](https://github.com/jeremylaratro/ulp) |
 | **Mobile Apps (App Store)** | [GrepEx](https://apps.apple.com/app/grepex) ・ [iCTF](https://apps.apple.com/app/ictf) |
