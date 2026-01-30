@@ -1,0 +1,68 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Daily at midnight UTC
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch GitHub Stats and Update SVG
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Fetch user stats
+          USER_DATA=$(curl -s -H "Authorization: token $GH_TOKEN" \
+            "https://api.github.com/users/jeremylaratro")
+
+          REPOS=$(echo "$USER_DATA" | jq -r '.public_repos')
+          FOLLOWERS=$(echo "$USER_DATA" | jq -r '.followers')
+
+          # Fetch total stars across all repos
+          STARS=$(curl -s -H "Authorization: token $GH_TOKEN" \
+            "https://api.github.com/users/jeremylaratro/repos?per_page=100" | \
+            jq '[.[].stargazers_count] | add // 0')
+
+          # Fetch commit count for current year
+          YEAR=$(date +%Y)
+
+          # Get commits from all repos for this year
+          COMMITS=0
+          REPOS_JSON=$(curl -s -H "Authorization: token $GH_TOKEN" \
+            "https://api.github.com/users/jeremylaratro/repos?per_page=100")
+
+          for repo in $(echo "$REPOS_JSON" | jq -r '.[].name'); do
+            REPO_COMMITS=$(curl -s -H "Authorization: token $GH_TOKEN" \
+              "https://api.github.com/repos/jeremylaratro/$repo/commits?author=jeremylaratro&since=${YEAR}-01-01T00:00:00Z&per_page=100" | \
+              jq 'if type == "array" then length else 0 end')
+            COMMITS=$((COMMITS + REPO_COMMITS))
+          done
+
+          echo "Repos: $REPOS"
+          echo "Followers: $FOLLOWERS"
+          echo "Stars: $STARS"
+          echo "Commits ($YEAR): $COMMITS"
+
+          # Update SVG with new stats
+          sed -i "s|<text class=\"stat-value\" x=\"130\" y=\"373\" text-anchor=\"middle\">[^<]*</text>|<text class=\"stat-value\" x=\"130\" y=\"373\" text-anchor=\"middle\">$REPOS</text>|" dark_mode.svg
+          sed -i "s|<text class=\"stat-value\" x=\"315\" y=\"373\" text-anchor=\"middle\">[^<]*</text>|<text class=\"stat-value\" x=\"315\" y=\"373\" text-anchor=\"middle\">$COMMITS</text>|" dark_mode.svg
+          sed -i "s|<text class=\"stat-value\" x=\"500\" y=\"373\" text-anchor=\"middle\">[^<]*</text>|<text class=\"stat-value\" x=\"500\" y=\"373\" text-anchor=\"middle\">$FOLLOWERS</text>|" dark_mode.svg
+          sed -i "s|<text class=\"stat-value\" x=\"685\" y=\"373\" text-anchor=\"middle\">[^<]*</text>|<text class=\"stat-value\" x=\"685\" y=\"373\" text-anchor=\"middle\">$STARS</text>|" dark_mode.svg
+
+          # Update year label
+          sed -i "s|COMMITS ([0-9]*)|COMMITS ($YEAR)|" dark_mode.svg
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add dark_mode.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update GitHub stats [automated]" && git push)
