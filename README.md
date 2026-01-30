@@ -22,8 +22,8 @@ class Operator:
     def __init__(self):
         self.role = "Offensive Security Engineer"
         self.location = "USA"
-        self.interests = ["Pentesting", "Hardware Hacking", "RF/SDR"]
-        self.current_ops = ["Red Team Ops", "Exploit Dev", "Radio Recon"]
+        self.interests = ["Offensive Security", "Automation & Efficiency", "Radio", "Travel"]
+        self.current_ops = ["Red Team Ops", "Tool & App Development", "Threat Intelligence"]
         self.philosophy = "The methodology matters more."
 ```
 
