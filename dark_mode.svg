@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="500" viewBox="0 0 850 500">
+  <style>
+    .bg { fill: #0d1117; }
+    .card { fill: #161b22; rx: 10; }
+    .title { fill: #58a6ff; font-family: 'Courier New', monospace; font-size: 14px; font-weight: bold; }
+    .key { fill: #ff7b72; font-family: 'Courier New', monospace; font-size: 12px; }
+    .value { fill: #79c0ff; font-family: 'Courier New', monospace; font-size: 12px; }
+    .comment { fill: #8b949e; font-family: 'Courier New', monospace; font-size: 11px; font-style: italic; }
+    .ascii { fill: #00ff41; font-family: 'Courier New', monospace; font-size: 10px; }
+    .stat-label { fill: #8b949e; font-family: 'Courier New', monospace; font-size: 11px; }
+    .stat-value { fill: #00ff41; font-family: 'Courier New', monospace; font-size: 13px; font-weight: bold; }
+    .bar-bg { fill: #21262d; }
+    .bar-fill { fill: #00ff41; }
+    .divider { stroke: #30363d; stroke-width: 1; }
+    .blink { animation: blink 1s infinite; }
+    @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg" width="850" height="500"/>
+
+  <!-- Main card -->
+  <rect class="card" x="20" y="20" width="810" height="460" rx="10"/>
+
+  <!-- Terminal header bar -->
+  <rect fill="#21262d" x="20" y="20" width="810" height="30" rx="10"/>
+  <rect fill="#161b22" x="20" y="40" width="810" height="10"/>
+  <circle fill="#ff5f56" cx="45" cy="35" r="6"/>
+  <circle fill="#ffbd2e" cx="65" cy="35" r="6"/>
+  <circle fill="#27c93f" cx="85" cy="35" r="6"/>
+  <text fill="#8b949e" x="420" y="40" text-anchor="middle" font-family="'Courier New', monospace" font-size="12">jay@kali ~ neofetch</text>
+
+  <!-- Fighter Jet ASCII Art -->
+  <text class="ascii" x="45" y="80">                              ___</text>
+  <text class="ascii" x="45" y="92">                             / _ \</text>
+  <text class="ascii" x="45" y="104">                       _____/  |  \_____</text>
+  <text class="ascii" x="45" y="116">                      /    /___|___\    \</text>
+  <text class="ascii" x="45" y="128">                _____/    /  /   \  \    \_____</text>
+  <text class="ascii" x="45" y="140">               /    /____/  / PWN \  \____\    \</text>
+  <text class="ascii" x="45" y="152">         _____/     |    | |_______| |    |     \_____</text>
+  <text class="ascii" x="45" y="164">        /=====\_____|____|/    |    \|____|_____/=====\</text>
+  <text class="ascii" x="45" y="176">       |  [=]  |    /    /     |     \    \    |  [=]  |</text>
+  <text class="ascii" x="45" y="188">        \=====/___/____/______|______\____\___\=====/</text>
+  <text class="ascii" x="45" y="200">              |___||____|      |      |____||___|</text>
+  <text class="ascii" x="45" y="212">                   |    |______|______|    |</text>
+  <text class="ascii" x="45" y="224">                   |____|      |      |____|</text>
+  <text class="ascii" x="45" y="236">                               |</text>
+  <text class="ascii" x="45" y="248">                            \==|==/</text>
+  <text class="ascii" x="45" y="260">                              \|/</text>
+
+  <!-- Divider line -->
+  <line class="divider" x1="380" y1="65" x2="380" y2="275"/>
+
+  <!-- System Info Section -->
+  <text class="title" x="400" y="85">jeremylaratro@offensive</text>
+  <text class="comment" x="400" y="100">----------------------------</text>
+
+  <text class="key" x="400" y="120">Role:</text>
+  <text class="value" x="455" y="120">Offensive Security Engineer</text>
+
+  <text class="key" x="400" y="140">OS:</text>
+  <text class="value" x="435" y="140">Fedora / Kali Linux</text>
+
+  <text class="key" x="400" y="160">WM:</text>
+  <text class="value" x="435" y="160">Hyprland / i3</text>
+
+  <text class="key" x="400" y="180">Editor:</text>
+  <text class="value" x="470" y="180">neovim</text>
+
+  <text class="key" x="400" y="200">Location:</text>
+  <text class="value" x="485" y="200">USA</text>
+
+  <text class="comment" x="400" y="220">----------------------------</text>
+
+  <text class="key" x="400" y="240">Focus:</text>
+  <text class="value" x="460" y="240">Hacking, Hardware, Radio</text>
+
+  <text class="key" x="400" y="260">Stack:</text>
+  <text class="value" x="460" y="260">Python, C, Bash, Go</text>
+
+  <!-- Divider -->
+  <line class="divider" x1="40" y1="285" x2="810" y2="285"/>
+
+  <!-- Stats Section -->
+  <text class="title" x="45" y="310">GITHUB STATS</text>
+
+  <!-- Stats boxes -->
+  <rect fill="#21262d" x="45" y="325" width="170" height="60" rx="5"/>
+  <text class="stat-label" x="130" y="350" text-anchor="middle">REPOSITORIES</text>
+  <text class="stat-value" x="130" y="373" text-anchor="middle">39</text>
+
+  <rect fill="#21262d" x="230" y="325" width="170" height="60" rx="5"/>
+  <text class="stat-label" x="315" y="350" text-anchor="middle">COMMITS (2025)</text>
+  <text class="stat-value" x="315" y="373" text-anchor="middle">---</text>
+
+  <rect fill="#21262d" x="415" y="325" width="170" height="60" rx="5"/>
+  <text class="stat-label" x="500" y="350" text-anchor="middle">FOLLOWERS</text>
+  <text class="stat-value" x="500" y="373" text-anchor="middle">5</text>
+
+  <rect fill="#21262d" x="600" y="325" width="170" height="60" rx="5"/>
+  <text class="stat-label" x="685" y="350" text-anchor="middle">STARS EARNED</text>
+  <text class="stat-value" x="685" y="373" text-anchor="middle">33+</text>
+
+  <!-- Language bars -->
+  <text class="title" x="45" y="415">LANGUAGES</text>
+
+  <text class="stat-label" x="45" y="437">Python</text>
+  <rect class="bar-bg" x="110" y="427" width="200" height="12" rx="3"/>
+  <rect class="bar-fill" x="110" y="427" width="160" height="12" rx="3"/>
+
+  <text class="stat-label" x="330" y="437">C</text>
+  <rect class="bar-bg" x="355" y="427" width="200" height="12" rx="3"/>
+  <rect class="bar-fill" x="355" y="427" width="80" height="12" rx="3"/>
+
+  <text class="stat-label" x="575" y="437">Bash</text>
+  <rect class="bar-bg" x="620" y="427" width="180" height="12" rx="3"/>
+  <rect class="bar-fill" x="620" y="427" width="100" height="12" rx="3"/>
+
+  <text class="stat-label" x="45" y="460">Go</text>
+  <rect class="bar-bg" x="75" y="450" width="200" height="12" rx="3"/>
+  <rect class="bar-fill" x="75" y="450" width="60" height="12" rx="3"/>
+
+  <text class="stat-label" x="295" y="460">Assembly</text>
+  <rect class="bar-bg" x="365" y="450" width="180" height="12" rx="3"/>
+  <rect class="bar-fill" x="365" y="450" width="40" height="12" rx="3"/>
+
+  <text class="stat-label" x="565" y="460">Other</text>
+  <rect class="bar-bg" x="620" y="450" width="180" height="12" rx="3"/>
+  <rect class="bar-fill" x="620" y="450" width="50" height="12" rx="3"/>
+
+  <!-- Blinking cursor -->
+  <rect class="blink" fill="#00ff41" x="565" y="233" width="8" height="14"/>
+
+</svg>
