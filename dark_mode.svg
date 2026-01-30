@@ -28,7 +28,7 @@
   <circle fill="#ff5f56" cx="45" cy="35" r="6"/>
   <circle fill="#ffbd2e" cx="65" cy="35" r="6"/>
   <circle fill="#27c93f" cx="85" cy="35" r="6"/>
-  <text fill="#8b949e" x="420" y="40" text-anchor="middle" font-family="'Courier New', monospace" font-size="12">jay@kali ~ neofetch</text>
+  <text fill="#8b949e" x="420" y="40" text-anchor="middle" font-family="'Courier New', monospace" font-size="12">d0sf3t@compromised_host ~ neofetch</text>
 
   <!-- Fighter Jet ASCII Art -->
   <text class="ascii" x="45" y="80">                              ___</text>
@@ -52,7 +52,7 @@
   <line class="divider" x1="380" y1="65" x2="380" y2="275"/>
 
   <!-- System Info Section -->
-  <text class="title" x="400" y="85">jeremylaratro@offensive</text>
+  <text class="title" x="400" y="85">Contact: github@aradex.io</text>
   <text class="comment" x="400" y="100">----------------------------</text>
 
   <text class="key" x="400" y="120">Role:</text>
@@ -65,7 +65,7 @@
   <text class="value" x="435" y="160">Hyprland / i3</text>
 
   <text class="key" x="400" y="180">Editor:</text>
-  <text class="value" x="470" y="180">neovim</text>
+  <text class="value" x="470" y="180">nano</text>
 
   <text class="key" x="400" y="200">Location:</text>
   <text class="value" x="485" y="200">USA</text>
@@ -76,7 +76,7 @@
   <text class="value" x="460" y="240">Hacking, Hardware, Radio</text>
 
   <text class="key" x="400" y="260">Stack:</text>
-  <text class="value" x="460" y="260">Python, C, Bash, Go</text>
+  <text class="value" x="460" y="260">Python, Bash</text>
 
   <!-- Divider -->
   <line class="divider" x1="40" y1="285" x2="810" y2="285"/>

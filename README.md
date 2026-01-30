@@ -24,7 +24,7 @@ class Operator:
         self.location = "USA"
         self.interests = ["Pentesting", "Hardware Hacking", "RF/SDR"]
         self.current_ops = ["Red Team Ops", "Exploit Dev", "Radio Recon"]
-        self.philosophy = "If it has an input, it has a vulnerability."
+        self.philosophy = "The methodology matters more."
 ```
 
 ---
@@ -58,14 +58,13 @@ class Operator:
 ### `>> GITHUB ANALYTICS`
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=jeremylaratro&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&count_private=true"/>
-  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=jeremylaratro&theme=dark&hide_border=true&background=0d1117&stroke=30363d&ring=00ff41&fire=00ff41&currStreakLabel=00ff41"/>
-</div>
 
-<br/>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeremylaratro&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&count_private=true)
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jeremylaratro&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&area_color=00ff4133&hide_border=true"/>
+![GitHub Streak](https://streak-stats.demolab.com?user=jeremylaratro&theme=dark&hide_border=true&background=0d1117&stroke=30363d&ring=00ff41&fire=00ff41&currStreakLabel=00ff41)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=jeremylaratro&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&area_color=00ff4133&hide_border=true)
+
 </div>
 
 ---
@@ -74,16 +73,22 @@ class Operator:
 
 <div align="center">
 
-[![Repo](https://github-readme-stats.vercel.app/api/pin/?username=jeremylaratro&repo=purplesploit&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41)](https://github.com/jeremylaratro/purplesploit)
-[![Repo](https://github-readme-stats.vercel.app/api/pin/?username=jeremylaratro&repo=secureLLaMA&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41)](https://github.com/jeremylaratro/secureLLaMA)
-
-[![Repo](https://github-readme-stats.vercel.app/api/pin/?username=jeremylaratro&repo=cloud_pentesting_overview&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41)](https://github.com/jeremylaratro/cloud_pentesting_overview)
+| Project | Description |
+|:-------:|:------------|
+| [**purplesploit**](https://github.com/jeremylaratro/purplesploit) | Pentesting framework |
+| [**secureLLaMA**](https://github.com/jeremylaratro/secureLLaMA) | Secure LLM implementation |
+| [**cloud_pentesting_overview**](https://github.com/jeremylaratro/cloud_pentesting_overview) | Cloud security testing guide |
 
 </div>
 
 ---
 
 <div align="center">
+
+### `>> CONNECT`
+
+[![Website](https://img.shields.io/badge/-jlaratro.us-0d1117?style=for-the-badge&logo=firefox&logoColor=00ff41)](https://jlaratro.us)
+[![Email](https://img.shields.io/badge/-github@aradex.io-0d1117?style=for-the-badge&logo=gmail&logoColor=00ff41)](mailto:github@aradex.io)
 
 ```
 $ echo "EOF" && exit 0
