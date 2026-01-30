@@ -90,8 +90,8 @@
   <text class="stat-value" x="130" y="373" text-anchor="middle">39</text>
 
   <rect fill="#21262d" x="230" y="325" width="170" height="60" rx="5"/>
-  <text class="stat-label" x="315" y="350" text-anchor="middle">COMMITS (2025)</text>
-  <text class="stat-value" x="315" y="373" text-anchor="middle">---</text>
+  <text class="stat-label" x="315" y="350" text-anchor="middle">COMMITS (2026)</text>
+  <text class="stat-value" x="315" y="373" text-anchor="middle">27</text>
 
   <rect fill="#21262d" x="415" y="325" width="170" height="60" rx="5"/>
   <text class="stat-label" x="500" y="350" text-anchor="middle">FOLLOWERS</text>
@@ -99,7 +99,7 @@
 
   <rect fill="#21262d" x="600" y="325" width="170" height="60" rx="5"/>
   <text class="stat-label" x="685" y="350" text-anchor="middle">STARS EARNED</text>
-  <text class="stat-value" x="685" y="373" text-anchor="middle">33+</text>
+  <text class="stat-value" x="685" y="373" text-anchor="middle">52</text>
 
   <!-- Language bars -->
   <text class="title" x="45" y="415">LANGUAGES</text>
