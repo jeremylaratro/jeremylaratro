@@ -128,7 +128,7 @@
   <rect class="bar-bg" x="620" y="450" width="180" height="12" rx="3"/>
   <rect class="bar-fill" x="620" y="450" width="50" height="12" rx="3"/>
 
-  <!-- Blinking cursor -->
-  <rect class="blink" fill="#00ff41" x="565" y="233" width="8" height="14"/>
+  <!-- Blinking cursor at end of Stack line -->
+  <rect class="blink" fill="#00ff41" x="545" y="250" width="8" height="14"/>
 
 </svg>
