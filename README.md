@@ -73,11 +73,20 @@ class Operator:
 
 <div align="center">
 
-| Project | Description |
-|:-------:|:------------|
-| [**purplesploit**](https://github.com/jeremylaratro/purplesploit) | Pentesting framework |
-| [**secureLLaMA**](https://github.com/jeremylaratro/secureLLaMA) | Secure LLM implementation |
-| [**cloud_pentesting_overview**](https://github.com/jeremylaratro/cloud_pentesting_overview) | Cloud security testing guide |
+#### Python Packages
+| Package | |
+|:--------|:--|
+| [**dhm**](https://github.com/jeremylaratro/dhm) | [**ulp**](https://github.com/jeremylaratro/ulp) |
+
+#### Mobile Apps (Apple App Store)
+| App | |
+|:----|:--|
+| [**GrepEx**](https://apps.apple.com/app/grepex) | [**iCTF**](https://apps.apple.com/app/ictf) |
+
+#### Security Tools
+| Tool | | |
+|:-----|:--|:--|
+| [**PurpleSploit**](https://github.com/jeremylaratro/purplesploit) | [**lss**](https://github.com/jeremylaratro/lss) | [**ArgusCloud**](https://github.com/jeremylaratro/ArgusCloud) |
 
 </div>
 
