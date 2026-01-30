@@ -73,11 +73,11 @@ class Operator:
 
 <div align="center">
 
-| | | |
-|:--|:--|:--|
-| **Python Packages** | [dhm](https://github.com/jeremylaratro/dhm) | [ulp](https://github.com/jeremylaratro/ulp) |
-| **Mobile Apps (App Store)** | [GrepEx](https://apps.apple.com/app/grepex) | [iCTF](https://apps.apple.com/app/ictf) |
-| **Security Tools** | [PurpleSploit](https://github.com/jeremylaratro/purplesploit) | [lss](https://github.com/jeremylaratro/lss) | [ArgusCloud](https://github.com/jeremylaratro/ArgusCloud) |
+| Category | Projects |
+|:---------|:---------|
+| **Python Packages** | [dhm](https://github.com/jeremylaratro/dhm) ・ [ulp](https://github.com/jeremylaratro/ulp) |
+| **Mobile Apps (App Store)** | [GrepEx](https://apps.apple.com/app/grepex) ・ [iCTF](https://apps.apple.com/app/ictf) |
+| **Security Tools** | [PurpleSploit](https://github.com/jeremylaratro/purplesploit) ・ [lss](https://github.com/jeremylaratro/lss) ・ [ArgusCloud](https://github.com/jeremylaratro/ArgusCloud) |
 
 </div>
 
