@@ -79,6 +79,7 @@ class Operator:
 | **Mobile Apps** | [GrepEx](https://apps.apple.com/app/grepex) ・ [iCTF](https://apps.apple.com/app/ictf) |
 | **Security Tools** | [PurpleSploit](https://github.com/jeremylaratro/purplesploit) ・ [lss](https://github.com/jeremylaratro/lss) ・ [ArgusCloud](https://github.com/jeremylaratro/ArgusCloud) ・ [WinBins](https://github.com/jeremylaratro/WinBins) ・ [pentest_scripts](https://github.com/jeremylaratro/pentest_scripts) ・ [supwngo](https://github.com/jeremylaratro/supwngo) |
 | **Utilities** | [Quantsploit](https://github.com/jeremylaratro/Quantsploit) ・ [polybar_widgets](https://github.com/jeremylaratro/polybar_widgets) ・ [secureLLaMA](https://github.com/jeremylaratro/secureLLaMA) |
+| **Informational** | [Cyberquizzer](https://github.com/jeremylaratro/Cyberquizzer) ・ [cloud_pentesting_overview](https://github.com/jeremylaratro/cloud_pentesting_overview) |
 
 </div>
 
