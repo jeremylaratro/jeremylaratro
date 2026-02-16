@@ -76,8 +76,9 @@ class Operator:
 | | |
 |:---------|:---------|
 | **Python Packages** | [dhm](https://github.com/jeremylaratro/dhm) ・ [ulp](https://github.com/jeremylaratro/ulp) |
-| **Mobile Apps (App Store)** | [GrepEx](https://apps.apple.com/app/grepex) ・ [iCTF](https://apps.apple.com/app/ictf) |
-| **Security Tools** | [PurpleSploit](https://github.com/jeremylaratro/purplesploit) ・ [lss](https://github.com/jeremylaratro/lss) ・ [ArgusCloud](https://github.com/jeremylaratro/ArgusCloud) |
+| **Mobile Apps** | [GrepEx](https://apps.apple.com/app/grepex) ・ [iCTF](https://apps.apple.com/app/ictf) |
+| **Security Tools** | [PurpleSploit](https://github.com/jeremylaratro/purplesploit) ・ [lss](https://github.com/jeremylaratro/lss) ・ [ArgusCloud](https://github.com/jeremylaratro/ArgusCloud) ・ [WinBins](https://github.com/jeremylaratro/WinBins) ・ [pentest_scripts](https://github.com/jeremylaratro/pentest_scripts) ・ [supwngo](https://github.com/jeremylaratro/supwngo) |
+| **Utilities** | [Quantsploit](https://github.com/jeremylaratro/Quantsploit) ・ [polybar_widgets](https://github.com/jeremylaratro/polybar_widgets) ・ [secureLLaMA](https://github.com/jeremylaratro/secureLLaMA) |
 
 </div>
 
