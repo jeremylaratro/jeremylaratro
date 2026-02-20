@@ -87,19 +87,19 @@
   <!-- Stats boxes -->
   <rect fill="#21262d" x="45" y="325" width="170" height="60" rx="5"/>
   <text class="stat-label" x="130" y="350" text-anchor="middle">REPOSITORIES</text>
-  <text class="stat-value" x="130" y="373" text-anchor="middle">39</text>
+  <text class="stat-value" x="130" y="373" text-anchor="middle">40</text>
 
   <rect fill="#21262d" x="230" y="325" width="170" height="60" rx="5"/>
   <text class="stat-label" x="315" y="350" text-anchor="middle">COMMITS (2026)</text>
-  <text class="stat-value" x="315" y="373" text-anchor="middle">31</text>
+  <text class="stat-value" x="315" y="373" text-anchor="middle">34</text>
 
   <rect fill="#21262d" x="415" y="325" width="170" height="60" rx="5"/>
   <text class="stat-label" x="500" y="350" text-anchor="middle">FOLLOWERS</text>
-  <text class="stat-value" x="500" y="373" text-anchor="middle">5</text>
+  <text class="stat-value" x="500" y="373" text-anchor="middle">6</text>
 
   <rect fill="#21262d" x="600" y="325" width="170" height="60" rx="5"/>
   <text class="stat-label" x="685" y="350" text-anchor="middle">STARS EARNED</text>
-  <text class="stat-value" x="685" y="373" text-anchor="middle">52</text>
+  <text class="stat-value" x="685" y="373" text-anchor="middle">53</text>
 
   <!-- Language bars -->
   <text class="title" x="45" y="415">LANGUAGES</text>
