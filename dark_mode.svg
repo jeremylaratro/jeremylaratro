@@ -99,7 +99,7 @@
 
   <rect fill="#21262d" x="600" y="325" width="170" height="60" rx="5"/>
   <text class="stat-label" x="685" y="350" text-anchor="middle">STARS EARNED</text>
-  <text class="stat-value" x="685" y="373" text-anchor="middle">53</text>
+  <text class="stat-value" x="685" y="373" text-anchor="middle">54</text>
 
   <!-- Language bars -->
   <text class="title" x="45" y="415">LANGUAGES</text>
