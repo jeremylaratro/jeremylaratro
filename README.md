@@ -100,4 +100,38 @@ $ echo "EOF" && exit 0
 
 </div>
 
+---
+
+<div align="center">
+
+<details>
+<summary><code>>> GPG PUBLIC KEY</code></summary>
+
+<br/>
+
+`d0sf3t aka Jay (research PGP) <research@aradex.io>`
+<br/>
+`EB79 EF16 62EB FEA4 89BB  2089 17B8 A2A0 7A52 9004`
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEaac9rxYJKwYBBAHaRw8BAQdAgljB19iKt1c2b2buJAup3Tqk7x3pgRQYg2bS
+rWJwYom0MmQwc2YzdCBha2EgSmF5IChyZXNlYXJjaCBQR1ApIDxyZXNlYXJjaEBh
+cmFkZXguaW8+iJMEExYKADsWIQTree8WYuv+pIm7IIkXuKKgelKQBAUCaac9rwIb
+AwULCQgHAgIiAgYVCgkICwIEFgIDAQIeBwIXgAAKCRAXuKKgelKQBHF2AP9blZG1
+iP6Estge5CvKDZhyDSRyCRQDXkGJHGHc3jgMYAEA3bNtsPBXRUyo5YcMMc954QGb
+djoTcdDy5XPfBxizDQC4OARppz2vEgorBgEEAZdVAQUBAQdAE+Tfo8Ch6PcwMayN
+l1PAGgxLgyLeWw/2DbxB42cgYlsDAQgHiHgEGBYKACAWIQTree8WYuv+pIm7IIkX
+uKKgelKQBAUCaac9rwIbDAAKCRAXuKKgelKQBKwDAP910l0f53UQOkvr7JmPX42P
+XPeS6QhnpT4+x1Pc/HF2HwEAiNdE1E/NsG+NDJiOzWq89bsDLcpTaYi5B/3qqJT+
+uAY=
+=kHS3
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+</details>
+
+</div>
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=80&section=footer"/>
